@@ -1,0 +1,37 @@
+:root {
+  --variable: #ff0000;
+
+  /* header */
+  --header-fc: #ffffff;
+  --header-bgc: #1b1b1b;
+
+  /* #details */
+
+  /* .course-details */
+  --course-details-fc: #000000;
+  --course-details-bgc: #00ffea;
+  --course-details-width: 10%;
+  --course-details-border-rad: 4px;
+  --course-details-padding: 1px 10px;
+
+  /* .detail */
+}
+
+header {
+  color: var(--header-fc);
+  background-color: var(--header-bgc);
+}
+
+#details {
+}
+
+.course-details {
+  color: var(--course-details-fc);
+  background-color: var(--course-details-bgc);
+  width: var(--course-details-width);
+  border-radius: var(--course-details-border-rad);
+  padding: var(--course-details-padding);
+}
+
+.detail {
+}
